@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Hub Homepage URL Success - <b>Actual:</b> https://about.me.northeastern.edu/home/
+ <b>Expected:</b> https://about.me.northeastern.edu/home/]]>
+    </line>
+    <line>
+      <![CDATA[Student hub Assertion Success - <b>Actual:</b> https://northeastern.sharepoint.com/sites/StudentHub
+ <b>Expected:</b> https://northeastern.sharepoint.com/sites/StudentHub]]>
+    </line>
+    <line>
+      <![CDATA[Calendar Tab icon title Assertion Success - <b>Actual:</b> Calendar,
+ <b>Expected: </b>Calendar]]>
+    </line>
+    <line>
+      <![CDATA[Assertion (Classroom is present) - <b>Actual:</b> 007 Behrakis Health Sciences Center, 
+ <b>Expected: </b>007 Behrakis Health Sciences Center<br>NUflex Auto]]>
+    </line>
+    <line>
+      <![CDATA[Assertion (Zip Button is present) - <b>Actual:</b> true, 
+ <b>Expected: </b>true]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-11-16T19:40:40 EST" name="Suite" finished-at="2023-11-16T19:45:55 EST" duration-ms="314989">
+    <groups>
+    </groups>
+    <test started-at="2023-11-16T19:40:40 EST" name="Test" finished-at="2023-11-16T19:45:55 EST" duration-ms="314989">
+      <class name="selenium_project.selenium_project.Scenarios">
+        <test-method is-config="true" signature="reportSetup()[pri:0, instance:selenium_project.selenium_project.Scenarios@1aafa419]" started-at="2023-11-16T19:40:40 EST" name="reportSetup" finished-at="2023-11-16T19:40:40 EST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method signature="TestScenario1()[pri:0, instance:selenium_project.selenium_project.Scenarios@1aafa419]" started-at="2023-11-16T19:40:40 EST" name="TestScenario1" finished-at="2023-11-16T19:41:54 EST" duration-ms="74221" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Hub Homepage URL Success - <b>Actual:</b> https://about.me.northeastern.edu/home/
+ <b>Expected:</b> https://about.me.northeastern.edu/home/]]>
+            </line>
+            <line>
+              <![CDATA[Student hub Assertion Success - <b>Actual:</b> https://northeastern.sharepoint.com/sites/StudentHub
+ <b>Expected:</b> https://northeastern.sharepoint.com/sites/StudentHub]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestScenario1 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:selenium_project.selenium_project.Scenarios@1aafa419]" started-at="2023-11-16T19:41:54 EST" name="getResult" finished-at="2023-11-16T19:41:54 EST" duration-ms="160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestScenario1 status=SUCCESS method=Scenarios.TestScenario1()[pri:0, instance:selenium_project.selenium_project.Scenarios@1aafa419] output=Hub Homepage URL Success - <b>Actual:</b> https://about.me.northeastern.edu/home/
+ <b>Expected:</b> https://about.me.northeastern.edu/home/]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="TestScenario2()[pri:1, instance:selenium_project.selenium_project.Scenarios@1aafa419]" started-at="2023-11-16T19:41:54 EST" name="TestScenario2" finished-at="2023-11-16T19:42:48 EST" duration-ms="54285" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Calendar Tab icon title Assertion Success - <b>Actual:</b> Calendar,
+ <b>Expected: </b>Calendar]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestScenario2 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:selenium_project.selenium_project.Scenarios@1aafa419]" started-at="2023-11-16T19:42:48 EST" name="getResult" finished-at="2023-11-16T19:42:49 EST" duration-ms="29" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestScenario2 status=SUCCESS method=Scenarios.TestScenario2()[pri:1, instance:selenium_project.selenium_project.Scenarios@1aafa419] output=Calendar Tab icon title Assertion Success - <b>Actual:</b> Calendar,
+ <b>Expected: </b>Calendar]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="TestScenario3()[pri:2, instance:selenium_project.selenium_project.Scenarios@1aafa419]" started-at="2023-11-16T19:42:49 EST" name="TestScenario3" finished-at="2023-11-16T19:43:45 EST" duration-ms="56369" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Assertion (Classroom is present) - <b>Actual:</b> 007 Behrakis Health Sciences Center, 
+ <b>Expected: </b>007 Behrakis Health Sciences Center<br>NUflex Auto]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestScenario3 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:selenium_project.selenium_project.Scenarios@1aafa419]" started-at="2023-11-16T19:43:45 EST" name="getResult" finished-at="2023-11-16T19:43:45 EST" duration-ms="32" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestScenario3 status=SUCCESS method=Scenarios.TestScenario3()[pri:2, instance:selenium_project.selenium_project.Scenarios@1aafa419] output=Assertion (Classroom is present) - <b>Actual:</b> 007 Behrakis Health Sciences Center, 
+ <b>Expected: </b>007 Behrakis Health Sciences Center<br>NUflex Auto]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="TestScenario4()[pri:3, instance:selenium_project.selenium_project.Scenarios@1aafa419]" started-at="2023-11-16T19:43:45 EST" name="TestScenario4" finished-at="2023-11-16T19:44:31 EST" duration-ms="46553" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Assertion (Zip Button is present) - <b>Actual:</b> true, 
+ <b>Expected: </b>true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestScenario4 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:selenium_project.selenium_project.Scenarios@1aafa419]" started-at="2023-11-16T19:44:31 EST" name="getResult" finished-at="2023-11-16T19:44:32 EST" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestScenario4 status=SUCCESS method=Scenarios.TestScenario4()[pri:3, instance:selenium_project.selenium_project.Scenarios@1aafa419] output=Assertion (Zip Button is present) - <b>Actual:</b> true, 
+ <b>Expected: </b>true]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="TestScenario5()[pri:4, instance:selenium_project.selenium_project.Scenarios@1aafa419]" started-at="2023-11-16T19:44:32 EST" name="TestScenario5" finished-at="2023-11-16T19:45:55 EST" duration-ms="83282" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#trumba\.spud\.5"}
+  (Session info: chrome=119.0.6045.159)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e5dde2df638bf9f5a46633562a685769, findElement {using=id, value=trumba.spud.5}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.159, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\rolwy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49486}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49486/devtoo..., se:cdpVersion: 119.0.6045.159, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5dde2df638bf9f5a46633562a685769]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#trumba\.spud\.5"}
+  (Session info: chrome=119.0.6045.159)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e5dde2df638bf9f5a46633562a685769, findElement {using=id, value=trumba.spud.5}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.159, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\rolwy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49486}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49486/devtoo..., se:cdpVersion: 119.0.6045.159, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5dde2df638bf9f5a46633562a685769
+at jdk.internal.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at selenium_project.selenium_project.Scenario5.scenario5(Scenario5.java:207)
+at selenium_project.selenium_project.Scenarios.TestScenario5(Scenarios.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestScenario5 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:selenium_project.selenium_project.Scenarios@1aafa419]" started-at="2023-11-16T19:45:55 EST" name="getResult" finished-at="2023-11-16T19:45:55 EST" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestScenario5 status=FAILURE method=Scenarios.TestScenario5()[pri:4, instance:selenium_project.selenium_project.Scenarios@1aafa419] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "this.test" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "this.test" is null
+at selenium_project.selenium_project.Scenarios.getResult(Scenarios.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- selenium_project.selenium_project.Scenarios -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

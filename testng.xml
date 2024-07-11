@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="4" verbose="1">
+  <listeners>
+      <listener class-name="selenium_project.selenium_project.CustomAssertionListener"/>
+  </listeners>
+  <test name="Test">
+    <classes>
+    <class name="selenium_project.selenium_project.Scenarios"/>
+      <!-- <class name="selenium_project.selenium_project.Scenario1"/>
+      <class name="selenium_project.selenium_project.Scenario2"/> -->
+      <!-- <class name="selenium_project.selenium_project.Scenario4"/>
+      <class name="selenium_project.selenium_project.Scenario5"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
